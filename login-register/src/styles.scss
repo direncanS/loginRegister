@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.input-group-addon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0.75rem 0.75rem;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s;
+    float: right;
+    font-size: var(--body-fontsize);
+    font-weight: (var(--regular-fontweight));
+    color: var(--primary-east-bay);
+    margin-top: -10px !important;
+}
